@@ -34,12 +34,14 @@ El proyecto se desarrolla a través de un Jupyter Notebook siguiendo una metodol
     Integración de Datos: Los datos de consumo e ingresos se fusionaron con la información de los usuarios y planes para crear un dataset único listo para el análisis.
 
 3. Análisis Exploratorio de Datos (EDA)
-
+    ![image alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-TeleComunicaciones/blob/main/1.png)
+    ![image alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-TeleComunicaciones/blob/main/2.png)
+    ![image alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-TeleComunicaciones/blob/main/3.png)
     Se describió el comportamiento de los clientes para cada plan, calculando la media, varianza y desviación estándar del consumo mensual (minutos, SMS, datos) para los usuarios de las tarifas Surf y Ultimate.
 
     Se generaron histogramas para visualizar las distribuciones del consumo en ambas tarifas, permitiendo una comprensión clara de cómo se utilizan los recursos del plan.
 
-4. Pruebas de Hipótesis Estadísticas
+5. Pruebas de Hipótesis Estadísticas
 
 Se emplearon pruebas t de dos muestras (Two-sample t-tests) para validar las siguientes hipótesis estadísticas, utilizando un valor α predefinido (especificado en el notebook):
 
