@@ -52,6 +52,9 @@ Conclusión del Análisis: Los resultados estadísticos (encontrados en los arch
 
 ![Image Alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-Y-Modelos-De-Clasificacion-Megaline/blob/main/models.png)
 
+    - [Dashboard - Testing de Modelos de Clasificacion Y Resultados](https://informe-estadistico-descriptivo-y.onrender.com)
+    - El dashboard se aloja en un server gratuito, la pagina puede tardar en cargar la primera vez y a veces se requiere refrescar la pagina.
+
 El objetivo fue crear un modelo que, basándose en el comportamiento de los usuarios, pudiera predecir y recomendar uno de los nuevos planes de Megaline (Smart o Ultra), alcanzando una exactitud (accuracy) superior a 0.75.
 ⚙️ Pipeline de Modelado
 
