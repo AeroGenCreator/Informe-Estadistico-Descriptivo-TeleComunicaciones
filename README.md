@@ -1,4 +1,4 @@
-# Informe-Estadistico-Descriptivo-TeleComunicaciones
+# Informe-Estadistico-Descriptivo-Y-Modelos-De-Clasificacion-Megaline
 Ejercio de practica, pruebas estadisticas y graficos.
 
 📊 Análisis de Ingresos de Planes de Telecomunicaciones (Megaline)
