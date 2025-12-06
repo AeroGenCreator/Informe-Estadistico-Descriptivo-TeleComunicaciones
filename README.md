@@ -3,7 +3,8 @@
 📊 Análisis de Datos y Modelo de Clasificación de Clientes de Telecomunicaciones (Megaline)
 
 Este proyecto se divide en dos fases principales: Análisis Estadístico de Datos de las tarifas prepago Surf y Ultimate de Megaline, y el desarrollo de un Modelo de Clasificación para recomendar un nuevo plan a los clientes.
-1. Análisis Estadístico de Datos
+
+## 1. Análisis Estadístico de Datos
 
 El objetivo fue determinar qué tarifa (Surf o Ultimate) generaba más ingresos promedio para la compañía.
 🛠️ Preparación y Preprocesamiento de Datos
@@ -17,6 +18,11 @@ El objetivo fue determinar qué tarifa (Surf o Ultimate) generaba más ingresos 
     Cálculo de Ingresos: Se determinaron los ingresos mensuales por usuario, restando el límite del paquete de los totales de consumo y aplicando las tarifas por exceso, sumando finalmente la cuota mensual.
 
 🔎 Análisis del Comportamiento del Cliente
+
+![Image Alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-Y-Modelos-De-Clasificacion-Megaline/blob/main/1.png)
+![Image Alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-Y-Modelos-De-Clasificacion-Megaline/blob/main/2.png)
+![Image Alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-Y-Modelos-De-Clasificacion-Megaline/blob/main/3.png)
+
 
 Se examinaron las métricas de consumo (minutos, SMS, GB) para cada tarifa:
 
@@ -41,7 +47,10 @@ Se utilizó una prueba t de dos muestras independientes (de scipy.stats) para pr
         Ha​: El ingreso promedio de los usuarios de la región NY-NJ DIFIERE del de otras regiones.
 
 Conclusión del Análisis: Los resultados estadísticos (encontrados en los archivos Jupyter) permitieron determinar si la diferencia en los ingresos promedio es estadísticamente significativa, informando al departamento comercial sobre la tarifa más rentable.
-2. Modelado de Clasificación de Planes
+
+## 2. Modelado de Clasificación de Planes
+
+![Image Alt](https://github.com/AeroGenCreator/Informe-Estadistico-Descriptivo-Y-Modelos-De-Clasificacion-Megaline/blob/main/models.png)
 
 El objetivo fue crear un modelo que, basándose en el comportamiento de los usuarios, pudiera predecir y recomendar uno de los nuevos planes de Megaline (Smart o Ultra), alcanzando una exactitud (accuracy) superior a 0.75.
 ⚙️ Pipeline de Modelado
